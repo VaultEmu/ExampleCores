@@ -7,16 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="VaultCore.CoreAPI" Version="0.1.7" PrivateAssets="all" />
-      <PackageReference Include="VaultCore.ImGuiWindowsAPI" Version="0.1.30" PrivateAssets="all" />
-      <PackageReference Include="VaultCore.Input" Version="0.1.10" PrivateAssets="all" />
-      <PackageReference Include="VaultCore.Rendering" Version="0.1.29" PrivateAssets="all" />
-    </ItemGroup>
-
-    <ItemGroup>
+        <PackageReference Include="VaultCore.CoreAPI" Version="0.1.14" PrivateAssets="all" />
+        <PackageReference Include="VaultCore.ImGuiWindowsAPI" Version="0.1.30" PrivateAssets="all" />
+        <PackageReference Include="VaultCore.Input" Version="0.1.10" PrivateAssets="all" />
+        <PackageReference Include="VaultCore.Rendering" Version="0.1.29" PrivateAssets="all" />
         <None Update="Assets\**\*.*">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
-
 </Project>
